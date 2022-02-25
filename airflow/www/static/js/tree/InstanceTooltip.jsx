@@ -123,29 +123,29 @@ const InstanceTooltip = ({
         </>
       )}
       <br />
-      <Text>
+      {/* <Text>
         {taskIdTitle}
         {taskId}
-      </Text>
-      <Text whiteSpace="nowrap">
+      </Text> */}
+      {/* <Text whiteSpace="nowrap">
         Run Id:
         {' '}
         {runId}
-      </Text>
-      {operator && (
+      </Text> */}
+      {/* {operator && (
       <Text>
         Operator:
         {' '}
         {operator}
       </Text>
-      )}
+      )} */}
       <Text>
         Duration:
         {' '}
         {formatDuration(duration || getDuration(startDate, endDate))}
       </Text>
       <br />
-      <Text as="strong">UTC</Text>
+      {/* <Text as="strong">UTC</Text>
       <Text>
         Started:
         {' '}
@@ -171,7 +171,7 @@ const InstanceTooltip = ({
         Ended:
         {' '}
         {endDate && formatDateTime(endDate)}
-      </Text>
+      </Text> */}
     </Box>
   );
 };
